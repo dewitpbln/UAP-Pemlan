@@ -4,8 +4,8 @@ import uap.bases.Shape;
 import uap.interfaces.*;
 
 public class Torus extends Shape implements ThreeDimensional, PiRequired, MassCalculable, MassConverter, ShippingCostCalculator {
-    private double majorRadius; // Radius utama torus
-    private double minorRadius; // Radius minor torus
+    private double majorRadius; 
+    private double minorRadius; 
 
     public Torus() {
         this.majorRadius = 0;
