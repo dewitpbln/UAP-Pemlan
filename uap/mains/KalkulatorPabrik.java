@@ -15,7 +15,6 @@ public class KalkulatorPabrik {
         System.out.println("245150707111015");
         System.out.println("=============================================");
         
-        // Input dan perhitungan untuk Torus (Donat dengan lubang)
         System.out.print("Isikan Major Radius : ");
         double majorRadius = scanner.nextDouble();
         System.out.print("Isikan Minor Radius : ");
@@ -24,7 +23,6 @@ public class KalkulatorPabrik {
         Torus torus = new Torus(majorRadius, minorRadius);
         torus.printInfo();
         
-        // Input dan perhitungan untuk Sphere (Donat tanpa lubang)
         System.out.print("Isikan radius : ");
         double radius = scanner.nextDouble();
         
